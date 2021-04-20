@@ -74,7 +74,5 @@
                 <version>2.5.2</version>
             </plugin>
         </plugins>
-
     </build>
-
 </project>
