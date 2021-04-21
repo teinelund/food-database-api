@@ -8,6 +8,10 @@ class FoodDatabaseImpl implements FoodDatabase {
     private String version;
     Map<Long, Food> foods = new HashMap<>();
 
+    public FoodDatabaseImpl(String version) {
+        this.version = version;
+    }
+
     public String getVersion() {
         return version;
     }
